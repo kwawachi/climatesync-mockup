@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimateSync Mobile App Mockup</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f7f7f7;
+        }
+        svg {
+            max-width: 90%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+        <!-- Phone Frame -->
+        <rect x="400" y="100" width="400" height="700" rx="30" fill="#E0E0E0" stroke="#333" stroke-width="3"/>
+        
+        <!-- Screen Background -->
+        <rect x="415" y="115" width="370" height="670" rx="20" fill="white"/>
+        
+        <!-- Home Screen -->
+        <g id="home-screen">
+            <text x="600" y="170" font-size="20" font-weight="bold" text-anchor="middle">ClimateSync</text>
+            
+            <!-- Weather Section -->
+            <rect x="440" y="200" width="320" height="150" rx="15" fill="#F0F0F0"/>
+            <text x="600" y="250" text-anchor="middle" font-size="24">25°C</text>
+            <text x="600" y="280" text-anchor="middle" font-size="16" fill="#666">Sunny</text>
+            
+            <!-- Buttons -->
+            <rect x="440" y="380" width="320" height="70" rx="10" fill="#3498db"/>
+            <text x="600" y="420" text-anchor="middle" fill="white">Collect Data</text>
+            
+            <rect x="440" y="470" width="320" height="70" rx="10" fill="#2ecc71"/>
+            <text x="600" y="510" text-anchor="middle" fill="white">Predictive Insights</text>
+            
+            <rect x="440" y="560" width="320" height="70" rx="10" fill="#9b59b6"/>
+            <text x="600" y="600" text-anchor="middle" fill="white">Carbon Credits</text>
+        </g>
+        
+        <!-- Data Collection Screen -->
+        <g id="data-collection-screen" transform="translate(0, 800)">
+            <text x="600" y="170" font-size="20" font-weight="bold" text-anchor="middle">Collect Climate Data</text>
+            
+            <rect x="440" y="220" width="320" height="80" rx="10" fill="#F0F0F0"/>
+            <text x="460" y="250" font-size="16">Temperature (°C)</text>
+            <text x="750" y="250" font-size="16">25</text>
+            
+            <rect x="440" y="320" width="320" height="80" rx="10" fill="#F0F0F0"/>
+            <text x="460" y="350" font-size="16">Humidity (%)</text>
+            <text x="750" y="350" font-size="16">60</text>
+            
+            <rect x="440" y="420" width="320" height="80" rx="10" fill="#F0F0F0"/>
+            <text x="460" y="450" font-size="16">Soil Moisture (%)</text>
+            <text x="750" y="450" font-size="16">30</text>
+            
+            <rect x="440" y="600" width="320" height="70" rx="10" fill="#3498db"/>
+            <text x="600" y="640" text-anchor="middle" fill="white">Submit Data</text>
+        </g>
+        
+        <!-- Predictive Insights Screen -->
+        <g id="predictive-insights-screen" transform="translate(0, 1600)">
+            <text x="600" y="170" font-size="20" font-weight="bold" text-anchor="middle">Predictive Insights</text>
+            
+            <rect x="440" y="220" width="320" height="180" rx="10" fill="#F0F0F0"/>
+            <text x="460" y="250" font-size="16">Recommendations:</text>
+            <text x="460" y="280" font-size="16">- Plant maize next week</text>
+            <text x="460" y="310" font-size="16">- Use drought-resistant seeds</text>
+            <text x="460" y="340" font-size="16">- Irrigate fields today</text>
+        </g>
+        
+        <!-- Carbon Credit Wallet Screen -->
+        <g id="carbon-credit-wallet-screen" transform="translate(0, 2400)">
+            <text x="600" y="170" font-size="20" font-weight="bold" text-anchor="middle">Carbon Credit Wallet</text>
+            
+            <rect x="440" y="220" width="320" height="180" rx="10" fill="#F0F0F0"/>
+            <text x="460" y="250" font-size="16">Carbon Credits: 150</text>
+            
+            <rect x="440" y="420" width="320" height="70" rx="10" fill="#2ecc71"/>
+            <text x="600" y="460" text-anchor="middle" fill="white">Redeem Credits</text>
+            
+            <rect x="440" y="510" width="320" height="70" rx="10" fill="#3498db"/>
+            <text x="600" y="550" text-anchor="middle" fill="white">Transfer Credits</text>
+        </g>
+    </svg>
+</body>
+</html>
+
+
